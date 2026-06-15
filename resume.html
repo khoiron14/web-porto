@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Muhammad N.H. Khoiron</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style> 
+        body { 
+            font-family: 'Inter', sans-serif; 
+            /* Best practice background overlay */
+            background-image: linear-gradient(rgba(248, 250, 252, 0.95), rgba(248, 250, 252, 0.95)), url('background.jpg');
+            background-size: cover;          
+            background-position: center;     
+            background-attachment: fixed;    
+            background-repeat: no-repeat;    
+        } 
+        html { scroll-behavior: smooth; }
+    </style>
+</head>
+<body class="text-slate-800 antialiased selection:bg-blue-200 selection:text-blue-900">
+
+    <nav class="fixed w-full z-50 top-0 transition-all duration-300 backdrop-blur-md bg-white/70 border-b border-slate-200 shadow-sm">
+        <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="font-bold text-xl tracking-tighter text-slate-900">M<span class="text-blue-600">K.</span></div>
+            <div class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600">
+                <a href="index.html" class="hover:text-blue-600 transition-colors">Home</a>
+                <a href="resume.html" class="text-blue-600">Resume</a>
+                <a href="projects.html" class="hover:text-blue-600 transition-colors">Projects</a>
+                <a href="blog.html" class="hover:text-blue-600 transition-colors">Blog</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mengubah max-w menjadi 4xl agar tata letak single column (atas-bawah) proporsional -->
+    <main class="max-w-4xl mx-auto px-6 pt-32 pb-20">
+        
+        <div class="mb-12">
+            <h1 class="text-4xl font-extrabold text-slate-900 mb-4">Experience & Education</h1>
+            <p class="text-slate-500 text-lg">My professional journey, academic background, and technical involvements.</p>
+        </div>
+
+        <div class="flex flex-col gap-16">
+            
+            <!-- WORK EXPERIENCE SECTION (ATAS) -->
+            <section>
+                <h3 class="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2">
+                    <span class="w-8 h-8 rounded-lg bg-blue-100 text-blue-600 flex items-center justify-center">💼</span>
+                    Work Experience
+                </h3>
+                
+                <div class="space-y-6">
+                    <!-- PT Mumtaz -->
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all duration-300">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-900">PT. Mumtaz Teknologi Indonesia</h4>
+                                <p class="text-blue-600 font-semibold mt-1">Full Stack Developer (WFH)</p>
+                            </div>
+                            <span class="mt-2 sm:mt-0 px-3 py-1 bg-slate-100 text-slate-600 text-sm font-medium rounded-full">Oct 2023 - Present</span>
+                        </div>
+                        <ul class="list-disc list-outside ml-5 text-slate-600 space-y-2 leading-relaxed">
+                            <li>Developed a large-scale <span class="font-semibold text-slate-800">Legislative Candidate Volunteer Information System</span> for the 2024 election campaign using Laravel and Leaflet.</li>
+                            <li>Built a Vue.js and TypeScript-based <span class="font-semibold text-slate-800">Vote Counting Web Application</span> for structured real-time reporting.</li>
+                            <li>Engineered an Election Fraud Reporting Website featuring relational database design and geographic data visualization.</li>
+                            <li>Developed a full-stack <span class="font-semibold text-slate-800">One Day One Juz</span> platform tracking Quran progress using Laravel, Vue.js, TypeScript, and Inertia.js.</li>
+                            <li>Contributed to an <span class="font-semibold text-slate-800">Admission Management System</span> with client-side validation and Agile Scrum workflows.</li>
+                            <li>Built a full-stack <span class="font-semibold text-slate-800">Accounting Information System</span> implementing COA management, transaction processing, and RBAC security.</li>
+                        </ul>
+                        <div class="mt-5 pt-4 border-t border-slate-100 flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 bg-red-50 text-red-600 text-xs font-bold rounded-md">Laravel</span>
+                            <span class="px-2.5 py-1 bg-emerald-50 text-emerald-600 text-xs font-bold rounded-md">Vue.js</span>
+                            <span class="px-2.5 py-1 bg-blue-50 text-blue-700 text-xs font-bold rounded-md">TypeScript</span>
+                            <span class="px-2.5 py-1 bg-indigo-50 text-indigo-600 text-xs font-bold rounded-md">Inertia.js</span>
+                            <span class="px-2.5 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-md">Leaflet</span>
+                        </div>
+                    </div>
+
+                    <!-- PT Digital Cerdas (Full Time) -->
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all duration-300">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-900">PT. Digital Cerdas Berbagi</h4>
+                                <p class="text-slate-700 font-semibold mt-1">Full Stack Developer (WFH)</p>
+                            </div>
+                            <span class="mt-2 sm:mt-0 px-3 py-1 bg-slate-100 text-slate-600 text-sm font-medium rounded-full">Jan 2023 - Dec 2024</span>
+                        </div>
+                        <ul class="list-disc list-outside ml-5 text-slate-600 space-y-2 leading-relaxed">
+                            <li>Developed a Human Resource Management System website for <span class="font-semibold text-slate-800">PT. Jasaraharja Putera</span>.</li>
+                            <li>Applied Clean Code and OOP principles while implementing unit testing to ensure code reliability and maintainability.</li>
+                        </ul>
+                        <div class="mt-5 pt-4 border-t border-slate-100 flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 bg-red-50 text-red-600 text-xs font-bold rounded-md">Laravel</span>
+                            <span class="px-2.5 py-1 bg-emerald-50 text-emerald-600 text-xs font-bold rounded-md">Vue.js</span>
+                            <span class="px-2.5 py-1 bg-indigo-50 text-indigo-600 text-xs font-bold rounded-md">Inertia.js</span>
+                            <span class="px-2.5 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-md">Unit Testing</span>
+                        </div>
+                    </div>
+
+                    <!-- PT Digital Cerdas (Intern) -->
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all duration-300">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-900">PT. Digital Cerdas Berbagi</h4>
+                                <p class="text-slate-700 font-semibold mt-1">Intern Full Stack Developer (WFH)</p>
+                            </div>
+                            <span class="mt-2 sm:mt-0 px-3 py-1 bg-slate-100 text-slate-600 text-sm font-medium rounded-full">Jul 2022 - Dec 2022</span>
+                        </div>
+                        <ul class="list-disc list-outside ml-5 text-slate-600 space-y-2 leading-relaxed">
+                            <li>Contributed to the development of a Learning Management System platform for <span class="font-semibold text-slate-800">PT. Bank Nagari</span>.</li>
+                            <li>Assisted in building the initial architecture for the HR Management System for PT. Jasaraharja Putera.</li>
+                        </ul>
+                        <div class="mt-5 pt-4 border-t border-slate-100 flex flex-wrap gap-2">
+                            <span class="px-2.5 py-1 bg-red-50 text-red-600 text-xs font-bold rounded-md">Laravel</span>
+                            <span class="px-2.5 py-1 bg-emerald-50 text-emerald-600 text-xs font-bold rounded-md">Vue.js</span>
+                            <span class="px-2.5 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-md">OOP</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- EDUCATION SECTION (BAWAH) -->
+            <section>
+                <h3 class="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-2">
+                    <span class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-600 flex items-center justify-center">🎓</span>
+                    Education & Involvement
+                </h3>
+                
+                <div class="space-y-8">
+                    
+                    <!-- Bachelor's Degree -->
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all duration-300">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-900 leading-tight">Politeknik Elektronika Negeri Surabaya</h4>
+                                <p class="font-semibold text-emerald-600 mt-1">Bachelor of Informatics Engineering</p>
+                            </div>
+                            <span class="mt-2 sm:mt-0 px-3 py-1 bg-slate-100 text-slate-600 text-sm font-medium rounded-full">Jan 2026 - Expected 2027</span>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div>
+                                <!-- <h5 class="text-sm font-bold text-slate-800 uppercase tracking-wider mb-2">Academic Projects</h5>
+                                <ul class="list-disc list-outside ml-5 text-slate-600 text-sm space-y-2 leading-relaxed">
+                                    <li>Developing a Python-based camping site recommendation system implementing the Analytical Hierarchy Process (AHP) matrix method.</li>
+                                </ul> -->
+                            </div>
+                        </div>
+
+                        <div class="mt-6 pt-5 border-t border-slate-100">
+                            <h5 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Skills Acquired</h5>
+                            <div class="flex flex-wrap gap-2">
+                                <!-- <span class="px-2.5 py-1 bg-blue-50 text-blue-700 text-xs font-bold rounded-md">Python</span> -->
+                                <span class="px-2.5 py-1 bg-emerald-50 text-emerald-600 text-xs font-bold rounded-md">Software Engineering</span>
+                                <!-- <span class="px-2.5 py-1 bg-indigo-50 text-indigo-700 text-xs font-bold rounded-md">Algorithm (AHP)</span> -->
+                                <!-- <span class="px-2.5 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-md">Linear Algebra</span> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Associate's Degree -->
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all duration-300">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-900 leading-tight">Politeknik Elektronika Negeri Surabaya</h4>
+                                <p class="font-semibold text-emerald-600 mt-1">Assoc. of Informatics Engineering</p>
+                            </div>
+                            <span class="mt-2 sm:mt-0 px-3 py-1 bg-slate-100 text-slate-600 text-sm font-medium rounded-full">Jul 2020 - Sep 2023</span>
+                        </div>
+                        <p class="text-sm text-slate-500 font-medium mb-6">GPA: 3.79 / 4.00</p>
+                        
+                        <div class="space-y-5">
+                            <div>
+                                <h5 class="text-sm font-bold text-slate-800 uppercase tracking-wider mb-2">Organizational & Project Experience</h5>
+                                <ul class="list-disc list-outside ml-5 text-slate-600 text-sm space-y-2 leading-relaxed">
+                                    <li><span class="font-semibold text-slate-800">Webmaster Division Members Leader at ENT (Oct 2020 - Sep 2023):</span> Led the development of the ENT Profile, university main website (pens.ac.id), and MEDIAENT news portal. Provided technical network support for the campus.</li>
+                                    <li><span class="font-semibold text-slate-800">Webdev Member at ECODE HIMIT (Dec 2020 - Mar 2022):</span> Contributed to the EVOTE website, HIMIT Satu Atap system, and Sherin Website for online sharing sessions.</li>
+                                    <li><span class="font-semibold text-slate-800">Freelance Projects:</span> Developed Backend for Haycpns Indonesia (2023), OP Brantas Website for Dept. of Water Resources (2021), and Landing Page for PT. Ananta Medika Teknologi (2022).</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h5 class="text-sm font-bold text-slate-800 uppercase tracking-wider mb-2">Achievements & Committees</h5>
+                                <ul class="list-disc list-outside ml-5 text-slate-600 text-sm space-y-2 leading-relaxed">
+                                    <li>Received Funding for Final Project via PKM Indonesia (2023) and Participated in Final Project Competition EEPIS.</li>
+                                    <li>Secured Semifinalist Position in the National Business Plan Competition IDEAS Batch 7 by UGM (2021).</li>
+                                    <li>Served as Committee member for DTIK Fest 2021 and Event Division for IT Creation 2021.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 pt-5 border-t border-slate-100">
+                            <h5 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Skills Acquired</h5>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-2.5 py-1 bg-red-50 text-red-600 text-xs font-bold rounded-md">Laravel</span>
+                                <span class="px-2.5 py-1 bg-emerald-50 text-emerald-600 text-xs font-bold rounded-md">Vue.js</span>
+                                <span class="px-2.5 py-1 bg-blue-50 text-blue-700 text-xs font-bold rounded-md">HTML/Tailwind CSS</span>
+                                <span class="px-2.5 py-1 bg-amber-50 text-amber-700 text-xs font-bold rounded-md">Leadership</span>
+                                <span class="px-2.5 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-md">Network Basic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- High School -->
+                    <div class="bg-white p-6 sm:p-8 rounded-2xl border border-slate-200 shadow-sm hover:shadow-md transition-all duration-300">
+                        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6">
+                            <div>
+                                <h4 class="text-xl font-bold text-slate-900 leading-tight">SMK Negeri 1 Surabaya</h4>
+                                <p class="font-semibold text-emerald-600 mt-1">High School Diploma in Software Engineering</p>
+                            </div>
+                            <span class="mt-2 sm:mt-0 px-3 py-1 bg-slate-100 text-slate-600 text-sm font-medium rounded-full">Jul 2016 - Jun 2019</span>
+                        </div>
+                        
+                        <div class="space-y-4">
+                            <div>
+                                <h5 class="text-sm font-bold text-slate-800 uppercase tracking-wider mb-2">Internship & Achievements</h5>
+                                <ul class="list-disc list-outside ml-5 text-slate-600 text-sm space-y-2 leading-relaxed">
+                                    <li><span class="font-semibold text-slate-800">Intern Full Stack Developer:</span> Completed an early professional internship at PT. Dhezign Online Solution (Oct 2017 - Apr 2018).</li>
+                                    <li>Secured 3rd Place in LKS (Lomba Kompetensi Siswa) IT Software Solution for Business 2019, East Java.</li>
+                                    <li>Secured 3rd Place in LKS Wilker 1 Software Application 2018, East Java.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="mt-6 pt-5 border-t border-slate-100">
+                            <h5 class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Skills Acquired</h5>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-2.5 py-1 bg-indigo-50 text-indigo-700 text-xs font-bold rounded-md">Software Engineering</span>
+                                <span class="px-2.5 py-1 bg-slate-100 text-slate-600 text-xs font-bold rounded-md">Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="w-full border-t border-slate-200/60 bg-slate-50/80 backdrop-blur-md py-6 mt-auto">
+        <div class="max-w-5xl mx-auto px-6 flex flex-col items-center justify-center text-center">
+            <p class="text-sm font-medium text-slate-600 mb-1">
+                This website is still under development. More updates and contents are coming as soon as possible!
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
